@@ -14,4 +14,7 @@ public class GoodsloginApplication {
         SpringApplication.run(GoodsloginApplication.class, args);
     }
 
+    //客户端修改
+    sadsadsadasd
+
 }

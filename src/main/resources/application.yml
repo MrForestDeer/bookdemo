@@ -1,0 +1,31 @@
+
+
+spring:
+  datasource:
+    name: mydb
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+#  application:
+#    name: longin_fs
+#  dubbo:
+#    registry:
+#      address: zookeeper://127.0.0.1:2181
+#    protocol :
+#      name: dubbo
+#      prot: 20880
+#    application:
+#      name: longin_dubbo_fs
+#    scan: com.jk.service
+  mongodb:
+    uri: mongodb://192.168.1.141:27017/1810B
+mybatis:
+  mapperLocations: classpath*:mybatis/*Mapper.xml
+
+  redis:
+    host: 192.168.1.141
+    port: 6379
+    timeout: 3000
+    password: 123

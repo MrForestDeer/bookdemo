@@ -12,6 +12,13 @@ public class GoodsloginApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(GoodsloginApplication.class, args);
+        
+        11111111111111111111111111111111111111111111111
+            ,
+        ,
+        ,
+        ,
+        //服务器修改
     }
 
     //客户端修改
